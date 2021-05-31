@@ -78,7 +78,7 @@ const Home = () => {
 
           <Suspense fallback={null}>
             <Environment preset="sunset" />
-            <StoneMaster />
+            {/* <StoneMaster /> */}
 
             <pointLight
               args={["#fff", 2, 100]}
