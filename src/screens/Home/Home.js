@@ -54,6 +54,12 @@ const Home = () => {
 
   return (
     <Screen>
+      <div>
+        <img
+          src={`${process.env.PUBLIC_URL}/assets/images/logo192.png`}
+          alt=""
+        />
+      </div>
       <Title>.0.o0.</Title>;
       <CanvasContainer>
         <Canvas
