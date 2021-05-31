@@ -1,12 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import { Box } from "@react-three/drei";
+import { Canvas } from "@react-three/fiber";
+import "./App.css";
+import MainApp from "./screens/MainApp";
 
 function App() {
-  return (
-    <div className="App">
-     Amp
-    </div>
-  );
+  return <MainApp />;
 }
 
 export default App;
