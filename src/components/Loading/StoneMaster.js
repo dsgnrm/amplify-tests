@@ -9,8 +9,7 @@ import * as THREE from "three";
 export default function StoneMaster(props) {
   const group = useRef();
   const { nodes, materials } = useGLTF(
-    `./assets/threed/stones/stonetwo.gltf`
-    // `${process.env.PUBLIC_URL}/assets/threed/stones/stonetwo.gltf`
+    `${process.env.PUBLIC_URL}/assets/threed/stones/stonetwo.gltf`
   );
 
   const STONE_MATERIAL = new THREE.MeshPhysicalMaterial({
